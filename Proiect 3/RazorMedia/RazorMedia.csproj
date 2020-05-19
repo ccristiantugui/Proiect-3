@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\MediaStorage\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\MediaStorage\amazing-animal-beautiful-beautifull.jpg" />
+    <None Include="wwwroot\MediaStorage\download.jpg" />
+    <None Include="wwwroot\MediaStorage\photo-1511447333015-45b65e60f6d5.jpg" />
+    <None Include="wwwroot\MediaStorage\unknown.png" />
+    <None Include="wwwroot\MediaStorage\y2mate.com - Logic - Homicide %28feat. Eminem%29 %28Official Audio%29_mfqsEpjEtrw_240p.mp4" />
+    <None Include="wwwroot\MediaStorage\y2mate.com - Roddy Ricch - The Box [Official Audio]_uLHqpjW3aDs_720p.mp4" />
+  </ItemGroup>
+
+</Project>

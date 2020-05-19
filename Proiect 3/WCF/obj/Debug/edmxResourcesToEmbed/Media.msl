@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MediaStoreContainer" CdmEntityContainer="MediaContainer">
+    <EntitySetMapping Name="Media">
+      <EntityTypeMapping TypeName="IsTypeOf(Media.Media)">
+        <MappingFragment StoreEntitySet="Media">
+          <ScalarProperty Name="MediaID" ColumnName="MediaID" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="MediaType" ColumnName="MediaType" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="ModifiedAt" ColumnName="ModifiedAt" />
+          <ScalarProperty Name="LocationLocationID" ColumnName="LocationLocationID" />
+          <ScalarProperty Name="EventEventID" ColumnName="EventEventID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="IsTypeOf(Media.Location)">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="IsTypeOf(Media.Person)">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="PersonID" ColumnName="PersonID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="IsTypeOf(Media.Event)">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="EventID" ColumnName="EventID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomAttributes">
+      <EntityTypeMapping TypeName="IsTypeOf(Media.CustomAttributes)">
+        <MappingFragment StoreEntitySet="CustomAttributes">
+          <ScalarProperty Name="CustomAttributeID" ColumnName="CustomAttributeID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MediaPerson" TypeName="Media.MediaPerson" StoreEntitySet="MediaPerson">
+      <EndProperty Name="Media">
+        <ScalarProperty Name="MediaID" ColumnName="Media_MediaID" />
+      </EndProperty>
+      <EndProperty Name="Person">
+        <ScalarProperty Name="PersonID" ColumnName="People_PersonID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="MediaCustomAttributes" TypeName="Media.MediaCustomAttributes" StoreEntitySet="MediaCustomAttributes">
+      <EndProperty Name="Media">
+        <ScalarProperty Name="MediaID" ColumnName="Media_MediaID" />
+      </EndProperty>
+      <EndProperty Name="CustomAttributes">
+        <ScalarProperty Name="CustomAttributeID" ColumnName="CustomAttributes_CustomAttributeID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

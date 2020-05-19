@@ -1,0 +1,34 @@
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\obj\Debug\HostWCF.csproj.CoreCompileInputs.cache
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\HostWCF.exe.config
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\HostWCF.exe
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\HostWCF.pdb
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\ObjectWCF.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\WCF.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\EntityFramework.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\ObjectWCF.pdb
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\WCF.pdb
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\WCF.dll.config
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\EntityFramework.xml
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\obj\Debug\HostWCF.exe
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\obj\Debug\HostWCF.pdb
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\HostWCF.exe.config
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\HostWCF.exe
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\HostWCF.pdb
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\EntityFramework.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\ObjectWCF.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\WCF.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\ObjectWCF.pdb
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\EntityFramework.xml
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\WCF.pdb
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\bin\Debug\WCF.dll.config
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\obj\Debug\HostWCF.csproj.CoreCompileInputs.cache
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\obj\Debug\HostWCF.exe
+E:\Cristian\.Net\Proiect-2\Proiect 2\HostWCF\obj\Debug\HostWCF.pdb

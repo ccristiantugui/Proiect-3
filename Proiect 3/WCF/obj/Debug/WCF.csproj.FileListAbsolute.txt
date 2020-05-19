@@ -1,0 +1,24 @@
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\obj\Debug\WCF.csprojAssemblyReference.cache
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\obj\Debug\WCF.csproj.CoreCompileInputs.cache
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\WCF.dll.config
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\WCF.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\WCF.pdb
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\EntityFramework.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\EntityFramework.xml
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\obj\Debug\WCF.csproj.CopyComplete
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\obj\Debug\WCF.dll
+E:\Cristian\.Net\Proiect 2\Proiect 2\WCF\obj\Debug\WCF.pdb
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\WCF.dll.config
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\WCF.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\WCF.pdb
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\EntityFramework.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\EntityFramework.SqlServer.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\EntityFramework.xml
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\bin\Debug\EntityFramework.SqlServer.xml
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\obj\Debug\WCF.csprojAssemblyReference.cache
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\obj\Debug\WCF.csproj.CoreCompileInputs.cache
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\obj\Debug\WCF.csproj.CopyComplete
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\obj\Debug\WCF.dll
+E:\Cristian\.Net\Proiect-2\Proiect 2\WCF\obj\Debug\WCF.pdb

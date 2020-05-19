@@ -1,0 +1,138 @@
+﻿@page
+@model RazorMedia.Pages.Media.ShowModel
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h1>Show</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <p>
+        Search: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+    <p>
+        People:
+        <select asp-for="MediaPeople" asp-items="Model.People">
+            <option value="">All</option>
+        </select>
+        Attributes:
+        <select asp-for="MediaCustomAttributes" asp-items="Model.CustomAttributes">
+            <option value="">All</option>
+        </select>
+        Type:
+        <select asp-for="MediaMediaType" asp-items="Model.MediaType">
+            <option value="">All</option>
+        </select>
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].MediaID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].MediaType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].Event)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].People)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].CustomAttributes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].CreatedAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Media[0].ModifiedAt)
+            </th>
+            <th>
+                Preview
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Media)
+        {
+        <tr style="font-size:small">
+            <td>
+                @Html.DisplayFor(modelItem => item.MediaID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Path)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MediaType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Event.Name)
+            </td>
+            <td>
+                @foreach (var p in item.People)
+                {
+                    @Html.DisplayFor(modelItem => p.Name)
+                    @:&nbsp;
+                }
+            </td>
+            <td>
+                @foreach (var ca in item.CustomAttributes)
+                {
+                    @Html.DisplayFor(modelItem => ca.Description)
+                    @:&nbsp;
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModifiedAt)
+            </td>
+            <td>
+                @if(System.IO.Path.GetExtension(item.Path) == ".jpg" || System.IO.Path.GetExtension(item.Path) == ".jpeg" || System.IO.Path.GetExtension(item.Path) == ".png"
+                  || System.IO.Path.GetExtension(item.Path) == ".JPG" || System.IO.Path.GetExtension(item.Path) == ".JPEG" || System.IO.Path.GetExtension(item.Path) == ".PNG")
+                {
+                    <img src="@Url.Content("~/MediaStorage/" + System.IO.Path.GetFileName(item.Path))" style="width:auto; height:200px;" />
+                }
+                else
+                {
+                    @*<iframe width=auto
+                            height="200px"
+                            src="@Url.Content("~/MediaStorage/" + System.IO.Path.GetFileName(item.Path))"
+                            frameborder="0"
+                            allowfullscreen></iframe>*@
+
+                    <video controls style="width:auto; height:200px;">
+                        <source src="@Url.Content("~/MediaStorage/" + System.IO.Path.GetFileName(item.Path))" type="video/mp4" />
+                    </video>
+
+                }
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.MediaID">Edit</a> |
+                <a asp-page="/Comments/List" asp-route-id="@item.MediaID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.MediaID">Delete</a> |
+                <a asp-page="/Comments/Create" asp-route-id="@item.MediaID">Add a Comment</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
