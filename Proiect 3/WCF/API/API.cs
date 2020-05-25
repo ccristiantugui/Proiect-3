@@ -363,7 +363,7 @@ namespace WCF
                                  .Include(m => m.Event)
                                  .Include(m => m.People)
                                  .Include(m => m.CustomAttributes)
-                                 .Where(m => m.Location.Name.ToLower().Contains(searchQuery) || searchQuery.Contains(m.Path.ToLower()));
+                                 .Where(m => m.Location.Name.ToLower().Contains(searchQuery) || searchQuery.Contains(m.Location.Name.ToLower()));
 
                 addSearchResultToList(foundMedia, media);
 

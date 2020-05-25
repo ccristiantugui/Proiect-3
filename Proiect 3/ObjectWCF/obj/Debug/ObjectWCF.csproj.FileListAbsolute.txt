@@ -22,3 +22,15 @@ E:\Cristian\.Net\Proiect-2\Proiect 2\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCo
 E:\Cristian\.Net\Proiect-2\Proiect 2\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
 E:\Cristian\.Net\Proiect-2\Proiect 2\ObjectWCF\obj\Debug\ObjectWCF.dll
 E:\Cristian\.Net\Proiect-2\Proiect 2\ObjectWCF\obj\Debug\ObjectWCF.pdb
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\ObjectWCF.dll
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\ObjectWCF.pdb
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\WCF.dll
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\EntityFramework.dll
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\WCF.pdb
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\WCF.dll.config
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\bin\Debug\EntityFramework.xml
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\obj\Debug\ObjectWCF.dll
+E:\Cristian\.Net\Proiect-3\Proiect 3\ObjectWCF\obj\Debug\ObjectWCF.pdb

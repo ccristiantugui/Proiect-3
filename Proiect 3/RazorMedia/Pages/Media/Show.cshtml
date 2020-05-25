@@ -14,6 +14,7 @@
     <p>
         Search: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
+        Results: @Html.DisplayFor(model => model.ResultsNumber)
     </p>
     <p>
         People:
@@ -89,7 +90,7 @@
             <td>
                 @foreach (var p in item.People)
                 {
-                    @Html.DisplayFor(modelItem => p.Name)
+                @Html.DisplayFor(modelItem => p.Name)
                     @:&nbsp;
                 }
             </td>

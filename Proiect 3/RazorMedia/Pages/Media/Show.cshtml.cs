@@ -12,6 +12,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace RazorMedia.Pages.Media
 {
@@ -36,6 +37,9 @@ namespace RazorMedia.Pages.Media
 
         [BindProperty(SupportsGet = true)]
         public String MediaMediaType { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public int ResultsNumber { get; set; }
 
         public ShowModel()
         {
@@ -66,7 +70,7 @@ namespace RazorMedia.Pages.Media
                 media = await mmc.SearchInDBAsync(SearchString);
             }
 
-            if(!string.IsNullOrEmpty(MediaPeople))
+            if (!string.IsNullOrEmpty(MediaPeople))
             {
                 List<ServiceReferenceMedia.Media> auxMedia = new List<ServiceReferenceMedia.Media>();
 
@@ -116,6 +120,9 @@ namespace RazorMedia.Pages.Media
                 media = auxMedia;
             }
 
+          
+            ResultsNumber = media.Count;
+
             foreach (var item in media)
             {
 
@@ -143,13 +150,13 @@ namespace RazorMedia.Pages.Media
                 try
                 {
                     System.IO.File.Copy(md.Path, destPath);
-                } catch (Exception e)
+                }
+                catch (Exception e)
                 {
                 }
             }
 
             Media.OrderBy(x => x.Path);
         }
-
     }
 }
